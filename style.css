@@ -1,0 +1,97 @@
+h1 {
+    margin-left: 20px;
+    margin-bottom: 0;
+    border-radius: 10%;
+    padding: 10px;
+    display: inline-block;
+    background-color: rgba(128, 128, 128, 0.842);
+    color: #fff;
+}
+
+
+body {
+    margin: 0;
+    background-image: url(background.jpg);
+    background-size: 100%;
+    background-color: #f0ecec;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.image {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 5px solid #fff;
+}
+
+.container {
+    display: flex;
+}
+
+.paragraph {
+    font-size: 18px;
+    margin-top: 90px;
+    margin-left: 30px;
+}
+
+.skills-list {
+    list-style-type: none;
+    display: flex;
+}
+
+.skills-list li {
+    background-color: #1f8bd3;
+    color: #fff;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 5px;
+}
+
+.skills-list li:hover {
+    background-color: darkblue;
+}
+
+pre {
+    font-size: 15px;
+}
+
+.project-name {
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.project-list {
+    font-size: 19px;
+    list-style-type: none;
+
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+}
+
+.footer img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 17px;
+}
+
+.contact {
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+}
